@@ -1,0 +1,32 @@
+[[package]]
+name = "actions"
+version = "1.0.3"
+description = "Declarative actions"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+bunch = "1.0.1"
+
+[[package]]
+name = "bunch"
+version = "1.0.1"
+description = "A dot-accessible dictionary (a la JavaScript objects)"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "251347800ec25051b7f9b508d2cef44c2dc645836faa1c25d6290eb4196ba6bf"
+
+[metadata.files]
+actions = [
+    {file = "actions-1.0.3.tar.gz", hash = "sha256:ff8bf50fd1bfcb9e8af1b7e74935435bbd03666289e10321ae2a4a5570aefb9c"},
+]
+bunch = [
+    {file = "bunch-1.0.1.tar.gz", hash = "sha256:50c77a0fc0cb372dfe48b5e11937d5f70e743adbf42683f3a6d2857645a76aaa"},
+    {file = "bunch-1.0.1.zip", hash = "sha256:3c554816ba260634b55c1edf8de6467d8122dbd18ec20f323e181869bc48ac93"},
+]
