@@ -7,13 +7,15 @@ class Character(object):
         self.location = 'start'
 
     def introduction(self):
-      print('Hi, my name is ', self.name)
-      print("I have been chosen by you for this mission. Here are some of my qualitites and background:") 
+        print('Hi, my name is ', self.name)
+        print(""" I have been chosen by you for this mission.
+        Here are some of my qualitites and background: """)
 
     def power_birthplace(self):
-      print("My special power is my", self.special_power)
-      print("My birthplace is", self.birthplace)
-      print('\n')
+        print("My special power is my", self.special_power)
+        print("My birthplace is", self.birthplace)
+        print('\n')
+
 
 def green_lantern_class():
     """ This object uses the main class to make a child object"""
@@ -22,12 +24,14 @@ def green_lantern_class():
         green_lantern.introduction()
         green_lantern.power_birthplace()
 
+
 def batman_class():
     """ This object uses the main class to make a child object"""
     class Batman(Character):
         batman = Character("Batman", "High Intelligence", "Gotham City")
         batman.introduction()
         batman.power_birthplace()
+
 
 def Batman_inventory():
     """ Prints out a statement about Batman's inventory """

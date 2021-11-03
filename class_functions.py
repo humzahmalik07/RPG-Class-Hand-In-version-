@@ -11,6 +11,7 @@ inventory = {"Batman": {"Night Vision Goggles":
                                {"description":
                                 "Use it as a flashlight to find their way", }}}
 
+
 class Character(object):
     """ This object gives attributes to each character """
     def __init__(self, name, special_power, birthplace):
@@ -20,13 +21,14 @@ class Character(object):
         self.location = 'start'
 
     def introduction(self):
-      print('Hi, my name is ', self.name)
-      print("I have been chosen by you for this mission. Here are some of my qualitites and background:") 
+        print('Hi, my name is ', self.name)
+        print(""" I have been chosen by you for this mission.
+        Here are some of my qualitites and background:""")
 
     def power_birthplace(self):
-      print("My special power is my", self.special_power)
-      print("My birthplace is", self.birthplace)
-      print('\n')
+        print("My special power is my", self.special_power)
+        print("My birthplace is", self.birthplace)
+        print('\n')
 
 
 def green_lantern_class():
@@ -59,7 +61,7 @@ valid_actions = ["forward", "backward", "left", "right"]
 
 def menu():
     """ Prints out the menu for the actions """
-    print("""Choose an action:  
+    print("""Choose an action:
      """)
     for action in valid_actions:
         print(f"* {action}")
