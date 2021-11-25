@@ -22,17 +22,24 @@ def menu():
         print(f"* {action}")
 
 
+
 def menu_2():
     """This defines the menu for the hint for Batman"""
-    for action in valid_actions_2:
+    try:
+      for action in valid_actions_2:
         print(f"* {action}")
-
+    except IndexError:
+      print("Error")
+      menu_2()
 
 def menu_3():
     """This defines the menu for the hint for Green Lantern"""
-    for action in valid_hint:
+    try:
+      for action in valid_hint:
         print(f"* {action}")
-
+    except IndexError:
+      print("Error")
+      menu_3()
 
 def end_script():
     """This function prints out the ending message of the game"""

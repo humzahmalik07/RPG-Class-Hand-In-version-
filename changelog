@@ -1,6 +1,10 @@
 # changelog
 All notable changes of this project will be documented here 
 
+## [0.0.4] 2021-11-25
+### Added
+- Exception handling has been added to the game for maps
+
 ## [0.0.4] 2021-11-02
 ### Added
 - A new part of the game is added

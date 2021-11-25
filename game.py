@@ -26,7 +26,7 @@ character_choice = input("Enter Batman or Green Lantern: ")
 if character_choice == "Batman":
     intro.introduction_part_1()
     intro.introduction_part_2()
-    maps.main_map()
+    maps.main_map_2()
     Characters.character_intro()
     Characters.batman_class()
     Characters.Batman_inventory()

@@ -27,3 +27,17 @@ def main_map():
     are printed below:
     """)
     print(gamemap_2)
+
+def main_map_2():
+  try:
+    main_map()
+  except ImportError:
+    print("There is an error with importing the file")
+    main_map()
+
+def main_map_3():
+  try:
+    map_temple()
+  except ImportError:
+    print("There is an error with importing the file")
+    map_temple()
